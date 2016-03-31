@@ -12,12 +12,11 @@
 #include "Cluster.h"
 #include "Exceptions.h"
 
-using std::cout;
-using std::endl;
+using namespace std;
 
 namespace Clustering
 {
-    //2 argument constructor
+    //2 Arg constructor
     LNode::LNode(const Point & nPoint, LNodePtr nxtPtr):point(nPoint)
     {
         next=nxtPtr;
